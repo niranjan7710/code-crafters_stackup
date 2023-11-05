@@ -5,7 +5,7 @@ Long Description about project. This project do that. This project is awesome...
 1. [Niranjan S](https://github.com/niranjan7710)
 2. [Kaladharan Lal](https://github.com/KaladharanLal)
 3. [Rahul](https://github.com/)
-4. [Aathish](https://github.com/niranjan7710)
+4. [Aathish](https://github.com/SlavBoi420)
 ## Team Id
 CODE -CRAFTERS
 ## Link to product walkthrough
