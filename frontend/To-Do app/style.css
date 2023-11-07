@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body
+{
+    position: absolute;
+    background-color: rgb(247, 255, 137);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.note
+{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    background-color: rgb(255, 199, 114);
+    border-radius: 20px;
+    padding: 20px;
+}
+.to-do-item
+{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.to-do-item > .check-box
+{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 163, 43);
+}
+.to-do-item > .content
+{
+    position: absolute;
+    height: 30px;
+    width: 90%;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+.add-bt
+{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
