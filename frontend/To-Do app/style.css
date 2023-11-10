@@ -29,25 +29,24 @@ body
     position: relative;
     height: 40px;
     width: 100%;
-    margin: 5px;
+    margin-bottom: 5px;
     border-radius: 10px;
     background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 42px auto 42px;
+    column-gap: 5px;
 }
 .to-do-item > .check-box
 {
-    position: relative;
-    height: 30px;
-    width: 30px;
-    margin: 5px;
     border-radius: 10px;
+    height: 100%;
+    width: 100%;
     background-color: rgb(255, 163, 43);
 }
 .to-do-item > .content
 {
-    position: absolute;
-    height: 30px;
-    width: 90%;
-    margin: 5px;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
     background-color: antiquewhite;
     padding: 5px;
@@ -57,7 +56,6 @@ body
     position: relative;
     height: 40px;
     width: 100%;
-    margin: 5px;
     border-radius: 10px;
     background-color: antiquewhite;
 }
